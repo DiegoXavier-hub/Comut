@@ -171,6 +171,7 @@ main .content{
     width: 40%;
     margin-left: 40px;
     margin-top: -5%;
+    z-index: -4;
 }
 
 main .content h1{
@@ -249,6 +250,7 @@ main p{
 
 .image{
     animation-delay: 3.4s;
+    z-index: -5;
 }
 
 /*Media Queries*/
@@ -313,6 +315,10 @@ main p{
         padding: 20px;
         padding-right: 30%;
         margin: 0;
+    }
+
+    header ul li a:hover{
+        font-size: 1.6rem !important;
     }
     
     header ul li .login{
